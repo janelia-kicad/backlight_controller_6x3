@@ -14,14 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 6600 2800 700  500
+S 6600 2800 700  500 
 U 5B9A0F78
 F0 "high_voltage_outputs" 60
 F1 "high_voltage_outputs.sch" 60
-F2 "channel_0" I L 6600 2900 60
-F3 "channel_1" I L 6600 3000 60
-F4 "channel_2" I L 6600 3100 60
-F5 "channel_3" I L 6600 3200 60
+F2 "channel_0" I L 6600 2900 60 
+F3 "channel_1" I L 6600 3000 60 
+F4 "channel_2" I L 6600 3100 60 
+F5 "channel_3" I L 6600 3200 60 
 $EndSheet
 Wire Wire Line
 	6600 2900 6550 2900
@@ -40,14 +40,14 @@ C_2
 Text Label 6550 3200 2    60   ~ 0
 C_3
 $Sheet
-S 6600 3600 700  500
+S 6600 3600 700  500 
 U 5B9A0F86
 F0 "low_voltage_outputs" 60
 F1 "low_voltage_outputs.sch" 60
-F2 "channel_0" I L 6600 3700 60
-F3 "channel_1" I L 6600 3800 60
-F4 "channel_2" I L 6600 3900 60
-F5 "channel_3" I L 6600 4000 60
+F2 "channel_0" I L 6600 3700 60 
+F3 "channel_1" I L 6600 3800 60 
+F4 "channel_2" I L 6600 3900 60 
+F5 "channel_3" I L 6600 4000 60 
 $EndSheet
 Wire Wire Line
 	6600 3700 6550 3700
@@ -66,18 +66,18 @@ C_6
 Text Label 6550 4000 2    60   ~ 0
 C_7
 $Sheet
-S 6600 4400 700  900
+S 6600 4400 700  900 
 U 5B9A0F98
 F0 "backlight_outputs" 60
 F1 "backlight_outputs.sch" 60
-F2 "channel_0" I L 6600 4500 60
-F3 "channel_1" I L 6600 4600 60
-F4 "channel_2" I L 6600 4700 60
-F5 "channel_3" I L 6600 4800 60
-F6 "channel_4" I L 6600 4900 60
-F7 "channel_5" I L 6600 5000 60
-F8 "channel_6" I L 6600 5100 60
-F9 "channel_7" I L 6600 5200 60
+F2 "channel_0" I L 6600 4500 60 
+F3 "channel_1" I L 6600 4600 60 
+F4 "channel_2" I L 6600 4700 60 
+F5 "channel_3" I L 6600 4800 60 
+F6 "channel_4" I L 6600 4900 60 
+F7 "channel_5" I L 6600 5000 60 
+F8 "channel_6" I L 6600 5100 60 
+F9 "channel_7" I L 6600 5200 60 
 $EndSheet
 Wire Wire Line
 	6600 4500 6550 4500
@@ -115,53 +115,53 @@ $Comp
 L power:VAA #PWR?
 U 1 1 5B9A4096
 P 2550 6050
-AR Path="/5B9A4096" Ref="#PWR?"  Part="1"
-AR Path="/5B99EA03/5B9A4096" Ref="#PWR017"  Part="1"
+AR Path="/5B9A4096" Ref="#PWR?"  Part="1" 
+AR Path="/5B99EA03/5B9A4096" Ref="#PWR017"  Part="1" 
 F 0 "#PWR017" H 2550 5900 50  0001 C CNN
 F 1 "VAA" H 2550 6200 50  0000 C CNN
 F 2 "" H 2550 6050 50  0001 C CNN
 F 3 "" H 2550 6050 50  0001 C CNN
 	1    2550 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5B9A409C
 P 2450 5900
-AR Path="/5B9A409C" Ref="#FLG?"  Part="1"
-AR Path="/5B99EA03/5B9A409C" Ref="#FLG04"  Part="1"
+AR Path="/5B9A409C" Ref="#FLG?"  Part="1" 
+AR Path="/5B99EA03/5B9A409C" Ref="#FLG04"  Part="1" 
 F 0 "#FLG04" H 2450 5975 50  0001 C CNN
 F 1 "PWR_FLAG" H 2450 6050 50  0000 C CNN
 F 2 "" H 2450 5900 50  0001 C CNN
 F 3 "~" H 2450 5900 50  0001 C CNN
 	1    2450 5900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5B9A40A2
 P 2550 6650
-AR Path="/5B9A40A2" Ref="#PWR?"  Part="1"
-AR Path="/5B99EA03/5B9A40A2" Ref="#PWR019"  Part="1"
+AR Path="/5B9A40A2" Ref="#PWR?"  Part="1" 
+AR Path="/5B99EA03/5B9A40A2" Ref="#PWR019"  Part="1" 
 F 0 "#PWR019" H 2550 6400 50  0001 C CNN
 F 1 "GND" H 2550 6500 50  0000 C CNN
 F 2 "" H 2550 6650 50  0001 C CNN
 F 3 "" H 2550 6650 50  0001 C CNN
 	1    2550 6650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5B9A40B2
 P 2900 2900
-AR Path="/5B9A40B2" Ref="#PWR?"  Part="1"
-AR Path="/5B99EA03/5B9A40B2" Ref="#PWR07"  Part="1"
+AR Path="/5B9A40B2" Ref="#PWR?"  Part="1" 
+AR Path="/5B99EA03/5B9A40B2" Ref="#PWR07"  Part="1" 
 F 0 "#PWR07" H 2900 2650 50  0001 C CNN
 F 1 "GND" H 2900 2750 50  0000 C CNN
 F 2 "" H 2900 2900 50  0001 C CNN
 F 3 "" H 2900 2900 50  0001 C CNN
 	1    2900 2900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2950 2850 2900 2850
@@ -205,14 +205,14 @@ $Comp
 L power:GND #PWR?
 U 1 1 5B9A40DA
 P 3300 3050
-AR Path="/5B9A40DA" Ref="#PWR?"  Part="1"
-AR Path="/5B99EA03/5B9A40DA" Ref="#PWR08"  Part="1"
+AR Path="/5B9A40DA" Ref="#PWR?"  Part="1" 
+AR Path="/5B99EA03/5B9A40DA" Ref="#PWR08"  Part="1" 
 F 0 "#PWR08" H 3300 2800 50  0001 C CNN
 F 1 "GND" H 3300 2900 50  0000 C CNN
 F 2 "" H 3300 3050 50  0001 C CNN
 F 3 "" H 3300 3050 50  0001 C CNN
 	1    3300 3050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3300 3000 3300 3050
@@ -222,27 +222,27 @@ $Comp
 L power:VEE #PWR?
 U 1 1 5B9A40EC
 P 2050 2050
-AR Path="/5B9A40EC" Ref="#PWR?"  Part="1"
-AR Path="/5B99EA03/5B9A40EC" Ref="#PWR05"  Part="1"
+AR Path="/5B9A40EC" Ref="#PWR?"  Part="1" 
+AR Path="/5B99EA03/5B9A40EC" Ref="#PWR05"  Part="1" 
 F 0 "#PWR05" H -2850 1150 50  0001 C CNN
 F 1 "VEE" H 2050 2200 50  0000 C CNN
 F 2 "" H -2850 1300 50  0001 C CNN
 F 3 "" H -2850 1300 50  0001 C CNN
 	1    2050 2050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5B9A40F2
 P 2050 2550
-AR Path="/5B9A40F2" Ref="#PWR?"  Part="1"
-AR Path="/5B99EA03/5B9A40F2" Ref="#PWR06"  Part="1"
+AR Path="/5B9A40F2" Ref="#PWR?"  Part="1" 
+AR Path="/5B99EA03/5B9A40F2" Ref="#PWR06"  Part="1" 
 F 0 "#PWR06" H 2050 2300 50  0001 C CNN
 F 1 "GND" H 2050 2400 50  0000 C CNN
 F 2 "" H 2050 2550 50  0001 C CNN
 F 3 "" H 2050 2550 50  0001 C CNN
 	1    2050 2550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2050 2050 2050 2100
@@ -281,27 +281,27 @@ $Comp
 L power:VAA #PWR?
 U 1 1 5B9A411E
 P 3150 6000
-AR Path="/5B9A411E" Ref="#PWR?"  Part="1"
-AR Path="/5B99EA03/5B9A411E" Ref="#PWR015"  Part="1"
+AR Path="/5B9A411E" Ref="#PWR?"  Part="1" 
+AR Path="/5B99EA03/5B9A411E" Ref="#PWR015"  Part="1" 
 F 0 "#PWR015" H 3150 5850 50  0001 C CNN
 F 1 "VAA" H 3150 6150 50  0000 C CNN
 F 2 "" H 3150 6000 50  0001 C CNN
 F 3 "" H 3150 6000 50  0001 C CNN
 	1    3150 6000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:VDD #PWR?
 U 1 1 5B9A4124
 P 3450 6000
-AR Path="/5B9A4124" Ref="#PWR?"  Part="1"
-AR Path="/5B99EA03/5B9A4124" Ref="#PWR016"  Part="1"
+AR Path="/5B9A4124" Ref="#PWR?"  Part="1" 
+AR Path="/5B99EA03/5B9A4124" Ref="#PWR016"  Part="1" 
 F 0 "#PWR016" H 1950 5200 50  0001 C CNN
 F 1 "VDD" H 3450 6150 50  0000 C CNN
 F 2 "" H 1950 5350 50  0001 C CNN
 F 3 "" H 1950 5350 50  0001 C CNN
 	1    3450 6000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3150 6000 3150 6050
@@ -315,14 +315,14 @@ $Comp
 L power:GND #PWR?
 U 1 1 5B9A4138
 P 2900 4900
-AR Path="/5B9A4138" Ref="#PWR?"  Part="1"
-AR Path="/5B99EA03/5B9A4138" Ref="#PWR012"  Part="1"
+AR Path="/5B9A4138" Ref="#PWR?"  Part="1" 
+AR Path="/5B99EA03/5B9A4138" Ref="#PWR012"  Part="1" 
 F 0 "#PWR012" H 2900 4650 50  0001 C CNN
 F 1 "GND" H 2900 4750 50  0000 C CNN
 F 2 "" H 2900 4900 50  0001 C CNN
 F 3 "" H 2900 4900 50  0001 C CNN
 	1    2900 4900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2950 4850 2900 4850
@@ -334,14 +334,14 @@ $Comp
 L power:VEE #PWR?
 U 1 1 5B9A4142
 P 3300 3550
-AR Path="/5B9A4142" Ref="#PWR?"  Part="1"
-AR Path="/5B99EA03/5B9A4142" Ref="#PWR09"  Part="1"
+AR Path="/5B9A4142" Ref="#PWR?"  Part="1" 
+AR Path="/5B99EA03/5B9A4142" Ref="#PWR09"  Part="1" 
 F 0 "#PWR09" H -1600 2650 50  0001 C CNN
 F 1 "VEE" H 3300 3700 50  0000 C CNN
 F 2 "" H -1600 2800 50  0001 C CNN
 F 3 "" H -1600 2800 50  0001 C CNN
 	1    3300 3550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2950 3950 2900 3950
@@ -387,14 +387,14 @@ $Comp
 L power:GND #PWR?
 U 1 1 5B9A415E
 P 3300 5050
-AR Path="/5B9A415E" Ref="#PWR?"  Part="1"
-AR Path="/5B99EA03/5B9A415E" Ref="#PWR013"  Part="1"
+AR Path="/5B9A415E" Ref="#PWR?"  Part="1" 
+AR Path="/5B99EA03/5B9A415E" Ref="#PWR013"  Part="1" 
 F 0 "#PWR013" H 3300 4800 50  0001 C CNN
 F 1 "GND" H 3300 4900 50  0000 C CNN
 F 2 "" H 3300 5050 50  0001 C CNN
 F 3 "" H 3300 5050 50  0001 C CNN
 	1    3300 5050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3300 5000 3300 5050
@@ -404,27 +404,27 @@ $Comp
 L power:VEE #PWR?
 U 1 1 5B9A4170
 P 2050 4050
-AR Path="/5B9A4170" Ref="#PWR?"  Part="1"
-AR Path="/5B99EA03/5B9A4170" Ref="#PWR010"  Part="1"
+AR Path="/5B9A4170" Ref="#PWR?"  Part="1" 
+AR Path="/5B99EA03/5B9A4170" Ref="#PWR010"  Part="1" 
 F 0 "#PWR010" H -2850 3150 50  0001 C CNN
 F 1 "VEE" H 2050 4200 50  0000 C CNN
 F 2 "" H -2850 3300 50  0001 C CNN
 F 3 "" H -2850 3300 50  0001 C CNN
 	1    2050 4050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5B9A4176
 P 2050 4550
-AR Path="/5B9A4176" Ref="#PWR?"  Part="1"
-AR Path="/5B99EA03/5B9A4176" Ref="#PWR011"  Part="1"
+AR Path="/5B9A4176" Ref="#PWR?"  Part="1" 
+AR Path="/5B99EA03/5B9A4176" Ref="#PWR011"  Part="1" 
 F 0 "#PWR011" H 2050 4300 50  0001 C CNN
 F 1 "GND" H 2050 4400 50  0000 C CNN
 F 2 "" H 2050 4550 50  0001 C CNN
 F 3 "" H 2050 4550 50  0001 C CNN
 	1    2050 4550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2050 4050 2050 4100
@@ -434,27 +434,27 @@ $Comp
 L power:VAA #PWR?
 U 1 1 5B9A418E
 P 3950 5500
-AR Path="/5B9A418E" Ref="#PWR?"  Part="1"
-AR Path="/5B99EA03/5B9A418E" Ref="#PWR014"  Part="1"
+AR Path="/5B9A418E" Ref="#PWR?"  Part="1" 
+AR Path="/5B99EA03/5B9A418E" Ref="#PWR014"  Part="1" 
 F 0 "#PWR014" H 3950 5350 50  0001 C CNN
 F 1 "VAA" H 3950 5650 50  0000 C CNN
 F 2 "" H 3950 5500 50  0001 C CNN
 F 3 "" H 3950 5500 50  0001 C CNN
 	1    3950 5500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5B9A4194
 P 3950 6550
-AR Path="/5B9A4194" Ref="#PWR?"  Part="1"
-AR Path="/5B99EA03/5B9A4194" Ref="#PWR018"  Part="1"
+AR Path="/5B9A4194" Ref="#PWR?"  Part="1" 
+AR Path="/5B99EA03/5B9A4194" Ref="#PWR018"  Part="1" 
 F 0 "#PWR018" H 3950 6300 50  0001 C CNN
 F 1 "GND" H 3950 6400 50  0000 C CNN
 F 2 "" H 3950 6550 50  0001 C CNN
 F 3 "" H 3950 6550 50  0001 C CNN
 	1    3950 6550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3950 6050 3950 6100
@@ -535,7 +535,7 @@ F 7 "C0805T104K5RAL7800" H 2050 2300 60  0001 C CNN "Manufacturer Part Number"
 F 8 "Digi-Key" H 2050 2300 60  0001 C CNN "Vendor"
 F 9 "399-14636-1-ND" H 2050 2300 60  0001 C CNN "Vendor Part Number"
 	1    2050 2300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L backlight_controller_6x3:0.1uF C2
@@ -552,7 +552,7 @@ F 7 "C0805T104K5RAL7800" H 2050 4300 60  0001 C CNN "Manufacturer Part Number"
 F 8 "Digi-Key" H 2050 4300 60  0001 C CNN "Vendor"
 F 9 "399-14636-1-ND" H 2050 4300 60  0001 C CNN "Vendor Part Number"
 	1    2050 4300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L backlight_controller_6x3:SN74ABT541BDWR U1
@@ -569,20 +569,20 @@ F 7 "SN74ABT541BDWR" H 3300 2300 60  0001 C CNN "Manufacturer Part Number"
 F 8 "Digi-Key" H 3300 2300 60  0001 C CNN "Vendor"
 F 9 "296-14668-1-ND" H 3300 2300 60  0001 C CNN "Vendor Part Number"
 	1    3300 2300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:VEE #PWR?
 U 1 1 5B9A40BC
 P 3300 1550
-AR Path="/5B9A40BC" Ref="#PWR?"  Part="1"
-AR Path="/5B99EA03/5B9A40BC" Ref="#PWR04"  Part="1"
+AR Path="/5B9A40BC" Ref="#PWR?"  Part="1" 
+AR Path="/5B99EA03/5B9A40BC" Ref="#PWR04"  Part="1" 
 F 0 "#PWR04" H -1600 650 50  0001 C CNN
 F 1 "VEE" H 3300 1700 50  0000 C CNN
 F 2 "" H -1600 800 50  0001 C CNN
 F 3 "" H -1600 800 50  0001 C CNN
 	1    3300 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L backlight_controller_6x3:SN74ABT541BDWR U2
@@ -599,7 +599,7 @@ F 7 "SN74ABT541BDWR" H 3300 4300 60  0001 C CNN "Manufacturer Part Number"
 F 8 "Digi-Key" H 3300 4300 60  0001 C CNN "Vendor"
 F 9 "296-14668-1-ND" H 3300 4300 60  0001 C CNN "Vendor Part Number"
 	1    3300 4300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L backlight_controller_6x3:MINI_FIT P1
@@ -615,7 +615,7 @@ F 6 "0039301060" H 2550 6350 60  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 2550 6350 60  0001 C CNN "Vendor"
 F 8 "WM1353-ND" H 2550 6350 60  0001 C CNN "Vendor Part Number"
 	1    2550 6350
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L backlight_controller_6x3:DIODE_10A D1
@@ -632,7 +632,7 @@ F 7 "PMEG045V100EPDZ" H 3300 6050 60  0001 C CNN "Manufacturer Part Number"
 F 8 "Digi-Key" H 3300 6050 60  0001 C CNN "Vendor"
 F 9 "1727-1904-1-ND" H 3300 6050 60  0001 C CNN "Vendor Part Number"
 	1    3300 6050
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L backlight_controller_6x3:LED_GRN D2
@@ -649,7 +649,7 @@ F 7 "LTST-C170GKT" H 3950 6300 60  0001 C CNN "Manufacturer Part Number"
 F 8 "Digi-Key" H 3950 6300 60  0001 C CNN "Vendor"
 F 9 "160-1179-1-ND" H 3950 6300 60  0001 C CNN "Vendor Part Number"
 	1    3950 6300
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L backlight_controller_6x3:2.2k R1
@@ -666,7 +666,7 @@ F 7 "ERJ-6ENF2201V" H 3950 5800 60  0001 C CNN "Manufacturer Part Number"
 F 8 "Digi-Key" H 3950 5800 60  0001 C CNN "Vendor"
 F 9 "P2.20KCCT-ND" H 3950 5800 60  0001 C CNN "Vendor Part Number"
 	1    3950 5800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3950 5500 3950 5550

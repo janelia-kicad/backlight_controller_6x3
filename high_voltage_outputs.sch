@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 3 22
 Title ""
 Date ""
-Rev "1.3"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 4750 2350 1250 300
+S 4750 2350 1250 300 
 U 5B99F372
 F0 "high_voltage_output_0" 60
 F1 "high_voltage_output.sch" 60
-F2 "CHANNEL" I L 4750 2500 60
-F3 "OUTPUT" I R 6000 2500 60
+F2 "CHANNEL" I L 4750 2500 60 
+F3 "OUTPUT" I R 6000 2500 60 
 $EndSheet
 Wire Wire Line
 	4750 2500 4700 2500
@@ -28,12 +28,12 @@ Wire Wire Line
 Text Label 6050 2500 0    60   ~ 0
 OUTPUT_0
 $Sheet
-S 4750 3000 1250 300
+S 4750 3000 1250 300 
 U 5B99F37A
 F0 "high_voltage_output_1" 60
 F1 "high_voltage_output.sch" 60
-F2 "CHANNEL" I L 4750 3150 60
-F3 "OUTPUT" I R 6000 3150 60
+F2 "CHANNEL" I L 4750 3150 60 
+F3 "OUTPUT" I R 6000 3150 60 
 $EndSheet
 Wire Wire Line
 	4750 3150 4700 3150
@@ -42,12 +42,12 @@ Wire Wire Line
 Text Label 6050 3150 0    60   ~ 0
 OUTPUT_1
 $Sheet
-S 4750 3600 1250 300
+S 4750 3600 1250 300 
 U 5B99F382
 F0 "high_voltage_output_2" 60
 F1 "high_voltage_output.sch" 60
-F2 "CHANNEL" I L 4750 3750 60
-F3 "OUTPUT" I R 6000 3750 60
+F2 "CHANNEL" I L 4750 3750 60 
+F3 "OUTPUT" I R 6000 3750 60 
 $EndSheet
 Wire Wire Line
 	4750 3750 4700 3750
@@ -56,12 +56,12 @@ Wire Wire Line
 Text Label 6050 3750 0    60   ~ 0
 OUTPUT_2
 $Sheet
-S 4750 4250 1250 300
+S 4750 4250 1250 300 
 U 5B99F38A
 F0 "high_voltage_output_3" 60
 F1 "high_voltage_output.sch" 60
-F2 "CHANNEL" I L 4750 4400 60
-F3 "OUTPUT" I R 6000 4400 60
+F2 "CHANNEL" I L 4750 4400 60 
+F3 "OUTPUT" I R 6000 4400 60 
 $EndSheet
 Wire Wire Line
 	4750 4400 4700 4400
@@ -73,15 +73,15 @@ $Comp
 L power:VAA #PWR?
 U 1 1 5B99F394
 P 7750 3050
-AR Path="/5B99F394" Ref="#PWR?"  Part="1"
-AR Path="/5B9970BA/5B99F394" Ref="#PWR?"  Part="1"
-AR Path="/5B99EA03/5B9A0F78/5B99F394" Ref="#PWR020"  Part="1"
+AR Path="/5B99F394" Ref="#PWR?"  Part="1" 
+AR Path="/5B9970BA/5B99F394" Ref="#PWR?"  Part="1" 
+AR Path="/5B99EA03/5B9A0F78/5B99F394" Ref="#PWR020"  Part="1" 
 F 0 "#PWR020" H 7750 2900 50  0001 C CNN
 F 1 "VAA" H 7750 3200 50  0000 C CNN
 F 2 "" H 7750 3050 50  0001 C CNN
 F 3 "" H 7750 3050 50  0001 C CNN
 	1    7750 3050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7800 3900 7750 3900
@@ -145,6 +145,6 @@ F 6 "09551156612741" H 8100 3500 60  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 8100 3500 60  0001 C CNN "Vendor"
 F 8 "1195-4005-1-ND" H 8100 3500 60  0001 C CNN "Vendor Part Number"
 	1    8100 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

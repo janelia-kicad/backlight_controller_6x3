@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 22 22
 Title ""
 Date ""
-Rev "1.3"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -222,7 +222,7 @@ F 1 "MOUNTING_HOLE_4-40" H 2958 5427 50  0000 L CNN
 F 2 "backlight_controller_6x3:MOUNTING_HOLE_4-40" H 3100 5400 50  0001 C CNN
 F 3 "" H 3100 5400 50  0001 C CNN
 	1    2900 5400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L backlight_controller_6x3:MOUNTING_HOLE_4-40 MH2
@@ -233,7 +233,7 @@ F 1 "MOUNTING_HOLE_4-40" H 4008 5427 50  0000 L CNN
 F 2 "backlight_controller_6x3:MOUNTING_HOLE_4-40" H 4150 5400 50  0001 C CNN
 F 3 "" H 4150 5400 50  0001 C CNN
 	1    3950 5400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L backlight_controller_6x3:MOUNTING_HOLE_4-40 MH4
@@ -244,7 +244,7 @@ F 1 "MOUNTING_HOLE_4-40" H 6058 5427 50  0000 L CNN
 F 2 "backlight_controller_6x3:MOUNTING_HOLE_4-40" H 6200 5400 50  0001 C CNN
 F 3 "" H 6200 5400 50  0001 C CNN
 	1    6000 5400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L backlight_controller_6x3:MOUNTING_HOLE_4-40 MH3
@@ -255,7 +255,7 @@ F 1 "MOUNTING_HOLE_4-40" H 5008 5427 50  0000 L CNN
 F 2 "backlight_controller_6x3:MOUNTING_HOLE_4-40" H 5150 5400 50  0001 C CNN
 F 3 "" H 5150 5400 50  0001 C CNN
 	1    4950 5400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 NoConn ~ 2900 5400
 NoConn ~ 3950 5400
@@ -270,7 +270,7 @@ F 1 "FIDUCIAL" H 2978 5655 50  0000 L CNN
 F 2 "backlight_controller_6x3:FIDUCIAL" H 3100 5700 50  0001 C CNN
 F 3 "" H 3100 5700 50  0001 C CNN
 	1    2900 5700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L backlight_controller_6x3:FIDUCIAL FID2
@@ -281,7 +281,7 @@ F 1 "FIDUCIAL" H 4028 5655 50  0000 L CNN
 F 2 "backlight_controller_6x3:FIDUCIAL" H 4150 5700 50  0001 C CNN
 F 3 "" H 4150 5700 50  0001 C CNN
 	1    3950 5700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L backlight_controller_6x3:FIDUCIAL FID3
@@ -292,7 +292,7 @@ F 1 "FIDUCIAL" H 5028 5655 50  0000 L CNN
 F 2 "backlight_controller_6x3:FIDUCIAL" H 5150 5700 50  0001 C CNN
 F 3 "" H 5150 5700 50  0001 C CNN
 	1    4950 5700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L backlight_controller_6x3:FIDUCIAL FID4
@@ -303,7 +303,7 @@ F 1 "FIDUCIAL" H 6078 5655 50  0000 L CNN
 F 2 "backlight_controller_6x3:FIDUCIAL" H 6200 5700 50  0001 C CNN
 F 3 "" H 6200 5700 50  0001 C CNN
 	1    6000 5700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L backlight_controller_6x3:HEADER_01X25_MALE J1
@@ -319,7 +319,7 @@ F 6 "PBC25SAAN" H 2850 3450 60  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 2850 3450 60  0001 C CNN "Vendor"
 F 8 "S1011E-25-ND" H 2850 3450 60  0001 C CNN "Vendor Part Number"
 	1    2850 3450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L backlight_controller_6x3:HEADER_01X25_MALE J2
@@ -335,6 +335,6 @@ F 6 "PBC25SAAN" H 5500 3450 60  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 5500 3450 60  0001 C CNN "Vendor"
 F 8 "S1011E-25-ND" H 5500 3450 60  0001 C CNN "Vendor Part Number"
 	1    5500 3450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

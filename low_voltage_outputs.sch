@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 8 22
 Title ""
 Date ""
-Rev "1.3"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -17,15 +17,15 @@ $Comp
 L power:GND #PWR?
 U 1 1 5B9B87CB
 P 8050 3950
-AR Path="/5B9B87CB" Ref="#PWR?"  Part="1"
-AR Path="/5B9B1B37/5B9B87CB" Ref="#PWR?"  Part="1"
-AR Path="/5B99EA03/5B9A0F86/5B9B87CB" Ref="#PWR041"  Part="1"
+AR Path="/5B9B87CB" Ref="#PWR?"  Part="1" 
+AR Path="/5B9B1B37/5B9B87CB" Ref="#PWR?"  Part="1" 
+AR Path="/5B99EA03/5B9A0F86/5B9B87CB" Ref="#PWR041"  Part="1" 
 F 0 "#PWR041" H 8050 3700 50  0001 C CNN
 F 1 "GND" H 8050 3800 50  0000 C CNN
 F 2 "" H 8050 3950 50  0001 C CNN
 F 3 "" H 8050 3950 50  0001 C CNN
 	1    8050 3950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8100 3100 8050 3100
@@ -68,12 +68,12 @@ OUTPUT_0
 Text Label 8000 3800 2    60   ~ 0
 OUTPUT_2
 $Sheet
-S 4300 2450 1250 300
+S 4300 2450 1250 300 
 U 5B9B87E5
 F0 "low_voltage_output_0" 60
 F1 "low_voltage_output.sch" 60
-F2 "CHANNEL" I L 4300 2600 60
-F3 "OUTPUT" O R 5550 2600 60
+F2 "CHANNEL" I L 4300 2600 60 
+F3 "OUTPUT" O R 5550 2600 60 
 $EndSheet
 Wire Wire Line
 	4300 2600 4250 2600
@@ -82,12 +82,12 @@ Wire Wire Line
 Text Label 5600 2600 0    60   ~ 0
 OUTPUT_0
 $Sheet
-S 4300 3100 1250 300
+S 4300 3100 1250 300 
 U 5B9B87ED
 F0 "low_voltage_output_1" 60
 F1 "low_voltage_output.sch" 60
-F2 "CHANNEL" I L 4300 3250 60
-F3 "OUTPUT" O R 5550 3250 60
+F2 "CHANNEL" I L 4300 3250 60 
+F3 "OUTPUT" O R 5550 3250 60 
 $EndSheet
 Wire Wire Line
 	4300 3250 4250 3250
@@ -96,12 +96,12 @@ Wire Wire Line
 Text Label 5600 3250 0    60   ~ 0
 OUTPUT_1
 $Sheet
-S 4300 3700 1250 300
+S 4300 3700 1250 300 
 U 5B9B87F5
 F0 "low_voltage_output_2" 60
 F1 "low_voltage_output.sch" 60
-F2 "CHANNEL" I L 4300 3850 60
-F3 "OUTPUT" O R 5550 3850 60
+F2 "CHANNEL" I L 4300 3850 60 
+F3 "OUTPUT" O R 5550 3850 60 
 $EndSheet
 Wire Wire Line
 	4300 3850 4250 3850
@@ -110,12 +110,12 @@ Wire Wire Line
 Text Label 5600 3850 0    60   ~ 0
 OUTPUT_2
 $Sheet
-S 4300 4350 1250 300
+S 4300 4350 1250 300 
 U 5B9B87FD
 F0 "low_voltage_output_3" 60
 F1 "low_voltage_output.sch" 60
-F2 "CHANNEL" I L 4300 4500 60
-F3 "OUTPUT" O R 5550 4500 60
+F2 "CHANNEL" I L 4300 4500 60 
+F3 "OUTPUT" O R 5550 4500 60 
 $EndSheet
 Wire Wire Line
 	4300 4500 4250 4500
@@ -145,6 +145,6 @@ F 6 "09551296812741" H 8400 3500 60  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 8400 3500 60  0001 C CNN "Vendor"
 F 8 "1195-4006-1-ND" H 8400 3500 60  0001 C CNN "Vendor Part Number"
 	1    8400 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
