@@ -1,0 +1,6 @@
+* Supplemental Bill of Materials
+#+RESULTS: supplemental-parts
+| Item | Quantity | Manufacturer       | Manufacturer Part Number   | Vendor   | Vendor Part Number | Description                    |
+|------+----------+--------------------+----------------------------+----------+--------------------+--------------------------------|
+|    1 |        1 | MEAN WELL USA Inc. | GST280A24-C6P              | Digi-Key | 1866-2122-ND       | AC/DC DESKTOP ADAPTER 24V 280W |
+|    2 |        1 | MEAN WELL USA Inc. | CORD IEC 320-C13 6FT BLACK | Digi-Key | 1866-5006-ND       | CORD IEC 320-C13 6FT BLACK     |
