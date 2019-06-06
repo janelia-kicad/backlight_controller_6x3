@@ -1,4 +1,4 @@
-update=Thu 06 Jun 2019 02:19:54 PM EDT
+update=Thu 06 Jun 2019 02:23:08 PM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -259,7 +259,7 @@ dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=LEDPOWER
-Clearance=0.254
+Clearance=0.2032
 TrackWidth=0.8128
 ViaDiameter=0.889
 ViaDrill=0.635
@@ -270,7 +270,7 @@ dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=POWER
-Clearance=0.254
+Clearance=0.2032
 TrackWidth=1.2192
 ViaDiameter=1.2192
 ViaDrill=0.7112
@@ -292,7 +292,7 @@ dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/5]
 Name=SUPERPOWER
-Clearance=0.254
+Clearance=0.2032
 TrackWidth=1.6256
 ViaDiameter=1.6256
 ViaDrill=1.1176
