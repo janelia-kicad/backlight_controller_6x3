@@ -132,10 +132,10 @@ channel_2
 Text HLabel 4700 4400 0    60   Input ~ 0
 channel_3
 $Comp
-L backlight_controller_6x3:DB9F J3
+L backlight_controller_6x3:DB9F J1
 U 1 1 5CDAD186
 P 8100 3500
-F 0 "J3" H 8280 3546 50  0000 L CNN
+F 0 "J1" H 8280 3546 50  0000 L CNN
 F 1 "DB9F" H 8280 3455 50  0000 L CNN
 F 2 "backlight_controller_6x3:DB9F_SMD" H 8000 3950 50  0001 C CNN
 F 3 "" H 8100 3500 50  0001 C CNN
